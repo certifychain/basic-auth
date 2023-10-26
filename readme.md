@@ -3,4 +3,4 @@ basic auth
 to-do : 
 
 - [x] make an api for auth
-- [ ] try connecting it with basic ui
+- [x] try connecting it with basic ui
