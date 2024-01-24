@@ -1,6 +1,32 @@
-basic auth
+peer to peer authentication for certifychain
 
-to-do : 
+file structure (proposed) : 
 
-- [x] make an api for auth
-- [x] try connecting it with basic ui
+```
+p2p-auth/
+|-- src/
+|   |-- main.c
+|   |-- pauth.c
+|   |-- pauth.h
+|   |-- networking.c
+|   |-- networking.h
+|   |-- cryptography.c
+|   |-- cryptography.h
+|   |-- utils.c
+|   |-- utils.h
+|
+|-- tests/
+|   |-- test-main.c
+|   |-- test-pauth.c
+|   |-- test-networking.c
+|   |-- test-cryptography.c
+|   |-- test-utils.c
+|
+|-- include/
+|   |-- pauth-common.h
+|
+|-- .gitignore
+|-- CMakeLists.txt
+|-- readme.md
+
+```
