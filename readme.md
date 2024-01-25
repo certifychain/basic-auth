@@ -7,13 +7,9 @@ p2p-auth/
 |-- src/
 |   |-- main.c
 |   |-- pauth.c
-|   |-- pauth.h
 |   |-- networking.c
-|   |-- networking.h
 |   |-- cryptography.c
-|   |-- cryptography.h
 |   |-- utils.c
-|   |-- utils.h
 |
 |-- tests/
 |   |-- test-main.c
@@ -23,7 +19,10 @@ p2p-auth/
 |   |-- test-utils.c
 |
 |-- include/
-|   |-- pauth-common.h
+|   |-- pauth.h
+|   |-- networking.h
+|   |-- cryptography.h
+|   |-- utils.h
 |
 |-- .gitignore
 |-- CMakeLists.txt
